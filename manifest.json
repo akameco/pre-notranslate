@@ -3,6 +3,7 @@
   "description": "Do not translate source code",
   "version": "0.1.0",
   "manifest_version": 2,
+  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "run_at": "document_start",
